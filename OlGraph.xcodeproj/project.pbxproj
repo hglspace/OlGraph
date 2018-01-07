@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5ADD10F51FFFBD3800615EAF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD10F41FFFBD3800615EAF /* main.c */; };
+		5A9B14BB1FFFDF9300FE4678 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B14BA1FFFDF9300FE4678 /* main.c */; };
+		5ADD10FD1FFFC22800615EAF /* operateGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD10FC1FFFC22800615EAF /* operateGraph.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A9B14BA1FFFDF9300FE4678 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5ADD10F11FFFBD3800615EAF /* OlGraph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OlGraph; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ADD10F41FFFBD3800615EAF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5ADD10FB1FFFBDA800615EAF /* myhead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myhead.h; sourceTree = "<group>"; };
+		5ADD10FC1FFFC22800615EAF /* operateGraph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = operateGraph.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		5ADD10F31FFFBD3800615EAF /* OlGraph */ = {
 			isa = PBXGroup;
 			children = (
-				5ADD10F41FFFBD3800615EAF /* main.c */,
+				5ADD10FB1FFFBDA800615EAF /* myhead.h */,
+				5ADD10FC1FFFC22800615EAF /* operateGraph.c */,
+				5A9B14BA1FFFDF9300FE4678 /* main.c */,
 			);
 			path = OlGraph;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ADD10F51FFFBD3800615EAF /* main.c in Sources */,
+				5A9B14BB1FFFDF9300FE4678 /* main.c in Sources */,
+				5ADD10FD1FFFC22800615EAF /* operateGraph.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
