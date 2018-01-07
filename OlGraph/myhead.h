@@ -20,4 +20,4 @@ struct OlGraph{
     int vexnum;//当前顶点数量
     int arcnum;//当前弧的数量
 };
-
+//自定义头文件
